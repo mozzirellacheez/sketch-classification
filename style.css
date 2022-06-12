@@ -1,0 +1,44 @@
+body{
+        background: linear-gradient(to top right, #ffcc99 -1%, #0099ff 101%);
+  
+}
+
+h1{
+    color: blue;
+    background-color: cornsilk;
+}
+
+#show_sketch{
+    float:right;
+}
+
+canvas{
+    border: 5px solid green;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name:example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 1px 1px 38px gray;}
+    to{box-shadow: 1px 1px 38px purple;}
+}
+
+p,span{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+#timer{
+    font-size: 25px;
+    margin-right:800px;
+    
+}
+
+#score{
+    font-size: 25px;
+    margin-left: 800px;
+}
+
